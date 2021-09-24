@@ -1,0 +1,23 @@
+_G.Min = 3 -- min players
+_G.Max = 14  -- max players
+_G.ItemFarm = "Lucky Arrow" -- Notify Which Item for webhook 
+getgenv().Key = "hiepicperson" -- the key will change every 24 hours
+getgenv().webhook = "" -- leave both empty if you don't want webhook ( otherwise it's required for both if you want webhook )
+getgenv().DiscordID = ""
+getgenv().AutoInvisible = false; -- change to true if you want invisible (more crash's)
+-- change to true to collect items you want to farm
+getgenv().Farming = {
+    ["Mysterious Arrow"] = true;
+    ["Rokakaka"] = true; 
+    ["Pure Rokakaka"] = false; 
+    ["Lucky Arrow"] = true; 
+    ["Rib Cage Of The Saint's Corpse"] = false; 
+    ["Steel Ball"] = false;
+    ["Zeppelin's headband"] = false; 
+    ["Ancient Scroll"] = false; 
+    ["Quinton's Glove"] = false;
+    ["Stone Mask"] = false; 
+    ["Gold Coin"] = false;
+    ["Diamond"] = false;
+    ["Dio's Diary"] = false;
+}
